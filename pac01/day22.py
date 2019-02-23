@@ -9,10 +9,10 @@ else:
     print(num)
 
 # 判断101-200之间有多少个素数，并输出
-for i in range(101,201):
-    for j in range(2,i+1):
-        if i%j == 0:
-            continue
+# for i in range(101,201):
+#     for j in range(2,i+1):
+#         if i%j == 0:
+#             continue
 
 
 # 将一个列表的数据复制到另一个列表中，并反向排序输出
@@ -24,3 +24,4 @@ for i in range(len(list)):
     print(j)
     colist[j] = list[i]
 print(colist)
+
